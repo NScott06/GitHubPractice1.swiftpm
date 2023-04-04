@@ -22,19 +22,19 @@ struct ContentView: View {
             Text("\(ans)")
             
             Button {
-                
+                ans = number1 / number2
             } label: {
                 Text("Divide")
             }
 
             Button {
-                
+                ans = number1 + number2
             } label: {
                 Text("Add")
             }
             
             Button {
-                
+                ans = number1 - number2
             } label: {
                 Text("Subtract")
             }
