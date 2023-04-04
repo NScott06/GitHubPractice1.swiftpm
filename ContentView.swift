@@ -15,7 +15,7 @@ struct ContentView: View {
         }
         VStack {
             Button {
-                
+                ans = number1 * number2
             } label: {
                 Text("Multiply")
             }
