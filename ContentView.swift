@@ -20,6 +20,24 @@ struct ContentView: View {
                 Text("Multiply")
             }
             Text("\(ans)")
+            
+            Button {
+                
+            } label: {
+                Text("Divide")
+            }
+
+            Button {
+                
+            } label: {
+                Text("Add")
+            }
+            
+            Button {
+                
+            } label: {
+                Text("Subtract")
+            }
         }
     }
 }
