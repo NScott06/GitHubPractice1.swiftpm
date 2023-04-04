@@ -1,12 +1,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var ans:Int = 0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button {
+                <#code#>
+            } label: {
+                Text("Multiply")
+            }
+            Text("\(ans)")
         }
     }
 }
